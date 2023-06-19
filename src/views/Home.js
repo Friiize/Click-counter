@@ -1,16 +1,11 @@
 import React from 'react';
 
-function Home({
-  onIncrement,
-  counter,
-}) {
+function Home() {
   return (
     <div>
-      <button>
-        Vous avez cliqué {counter} fois
-      </button>
+
     </div>
   );
-};
+}
 
 export default Home;
